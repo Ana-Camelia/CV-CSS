@@ -1,0 +1,148 @@
+/*******************************tags******************************/
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #1a001a;
+}
+
+h1 {
+  font-size: 5.5rem;
+  margin: 1.875rem auto 1.25rem auto;
+  font-family: 'Marck Script', cursive;
+  color: white;
+  line-height: 1.5;
+}
+
+h2 {
+  margin: 0.9375rem;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  color: #be79df;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 1.25rem;
+  color: #be79df;
+}
+
+a {
+  color: #be79df;
+  font-family: 'Lato', sans-serif;
+}
+
+hr {
+  margin: 4.375rem auto;
+  border-style: dotted none none;
+  border-color: #fbcffc;
+  border-width: 5px;
+  width: 5%;
+}
+
+p {
+  line-height: 1.5;
+}
+/*****************************classes******************************/
+.topc {
+  background-color: #cff1ef;
+  padding-top: 6.25rem;
+  text-align: center;
+  position: relative;
+}
+.middlec {
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  background-color: white;
+}
+
+.bottomc {
+  padding: 2rem 0.5rem 1rem;
+  background-color: #fbcffc;
+  text-align: center;
+}
+
+.pozemid {
+  margin: 0;
+  width: 25%;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+.skill-row {
+  width: 50%;
+  margin: 3.125rem auto;
+  text-align: justify;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.pc {
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.pz {
+  float: right;
+  margin-left: 1.875rem;
+  margin-top: 1.875rem;
+}
+
+.btn {
+  margin: 1.875rem auto;
+	box-shadow:inset 0 1px 0 0 #fbcffc;
+	background:linear-gradient(to bottom, #fbcffc 5%, #bf79df 100%);
+	background-color:#fbcffc;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Libre Baskerville', serif;
+	font-size:0.9375rem;
+	font-weight:bold;
+	padding:0.375rem 1.5rem;
+	text-decoration:none;
+	text-shadow:0 1px 0 #9752cc;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #bf79df 5%, #fbcffc 100%);
+	background-color:#bf79df;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.copyr {
+  font-size: 0.75rem;
+  color: #bf79df;
+  margin: 2rem 0 0;
+}
+/********************************ids*******************************/
+#c1 {
+margin: 1.25rem;
+position:absolute;
+right:15.625rem;
+top:1.875rem;
+}
+
+#c2 {
+  margin: 1.25rem;
+  position:absolute;
+  left:15.625rem;
+  bottom: 15.625rem;
+}
